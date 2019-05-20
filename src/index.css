@@ -1,0 +1,76 @@
+/* Bise-Bise Styling*/
+h1, h2, h3, h4 {
+  padding: 1rem;
+}
+.bg-pink {
+  background-color: rgba(255, 160, 122, 0.5);
+}
+.bg-white {
+  background-color: white;
+}
+.bg-txt {
+  background-color: #f8f9fa;
+}
+.bg-img {
+  color: transparent;
+  background-image: url('./img/flower1.jpg');
+}
+
+.App {
+  scroll-behavior: smooth;
+}
+.App > .navbar {
+  min-height: 6rem; 
+}
+.App > .navbar {
+  font-size: 1.1rem;
+}
+
+.App .banner {
+  min-height: 600px;
+}
+.App .banner > .row > .col:nth-of-type(2) {
+  margin-top: 14rem;
+}
+
+.App .section {
+  min-height: 25rem;
+}
+.App .section:hover {
+  cursor: pointer;
+}
+.App .section h1 {
+  margin-top: 3rem;
+  text-align: center;
+  color: rgba(0,0,0,.5);
+}
+.App .section p {
+  text-align: left;
+}
+
+.about {
+  padding: 2rem;
+}
+.about p {
+  text-align: left;
+}
+.profile-img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10rem;
+  background-color: rgba(255, 160, 122, 0.5);
+}
+
+.App > .footer {
+  min-height: 10rem;
+  padding: 1rem;
+  text-align: left;
+  background-color: rgb(140, 180, 194, 0.5);
+  color: #f8f9fa;
+}
+
+.App .box {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+}

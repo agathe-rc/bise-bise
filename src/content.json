@@ -1,0 +1,47 @@
+{
+    "banner": {
+        "title": "Notre avenir dépend de notre capacité de coopération et d’engagement.",
+        "subtitle": "La nécessité de transformer nos façons de travailler et de manager n’est plus à prouver, mais par où commencer ?",
+        "text": "bise/bise vous accompagne, vous conseille et vous entraîne."
+    },
+    "home": [
+        {
+            "id": "approach",
+            "title": "Notre approche",
+            "text": "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?"
+        },
+        {
+            "id": "services",
+            "title": "Nos services",
+            "text": "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?"
+        },
+        {
+            "id": "works",
+            "title": "Réalisations",
+            "text": "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?"
+        },
+        {
+            "id": "about",
+            "title": "Qui sommes-nous ?",
+            "text": "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?"
+        }
+    ],
+    "approach": {
+        "title": "",
+        "subtitle": "",
+        "images": []
+    },
+    "services": {
+        "title": "",
+        "subtitle": "",
+        "images": []
+    },
+    "about": {
+        "title": "Qui sommes-nous ?",
+        "subtitle": "",
+        "text": [
+            "Per hoc minui studium suum existimans Paulus, ut erat in conplicandis negotiis artifex dirus, unde ei Catenae inditum est cognomentum, vicarium ipsum eos quibus praeerat adhuc defensantem ad sortem periculorum communium traxit. et instabat ut eum quoque cum tribunis et aliis pluribus ad comitatum imperatoris vinctum perduceret: quo percitus ille exitio urgente abrupto ferro eundem adoritur Paulum. et quia languente dextera, letaliter ferire non potuit, iam districtum mucronem in proprium latus inpegit. hocque deformi genere mortis excessit e vita iustissimus rector ausus miserabiles casus levare multorum.", 
+            "Novitates autem si spem adferunt, ut tamquam in herbis non fallacibus fructus appareat, non sunt illae quidem repudiandae, vetustas tamen suo loco conservanda; maxima est enim vis vetustatis et consuetudinis. Quin in ipso equo, cuius modo feci mentionem, si nulla res impediat, nemo est, quin eo, quo consuevit, libentius utatur quam intractato et novo. Nec vero in hoc quod est animal, sed in iis etiam quae sunt inanima, consuetudo valet, cum locis ipsis delectemur, montuosis etiam et silvestribus, in quibus diutius commorati sumus."
+        ]
+    }
+}
