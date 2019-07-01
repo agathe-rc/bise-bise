@@ -1,76 +1,123 @@
-/* Bise-Bise Styling*/
+/********* Bise-Bise Styling *********/
+html, body {
+  font-family: 'Karla', 'Open Sans', serif;
+}
+
 h1, h2, h3, h4 {
-  padding: 1rem;
+  color: black;
 }
-.bg-pink {
-  background-color: rgba(255, 160, 122, 0.5);
+h3 {
+  padding: 0 !important;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-.bg-white {
-  background-color: white;
+
+.minus-4 {
+  margin: -4rem !important;
 }
-.bg-txt {
-  background-color: #f8f9fa;
-}
-.bg-img {
-  color: transparent;
-  background-image: url('./img/flower1.jpg');
+.minus-br-4 {
+  margin-right: -4rem !important;
+  margin-bottom: -4rem !important;
 }
 
 .App {
+  display: flex;
   scroll-behavior: smooth;
+  background-image: url('./img/fond.jpg');
+  background-size: cover;
 }
 .App > .navbar {
-  min-height: 6rem; 
-}
-.App > .navbar {
+  min-height: 6rem;
+  background-color: white;
   font-size: 1.1rem;
+  font-weight: bold;
 }
-
-.App .banner {
-  min-height: 600px;
-}
-.App .banner > .row > .col:nth-of-type(2) {
-  margin-top: 14rem;
-}
-
-.App .section {
-  min-height: 25rem;
-}
-.App .section:hover {
+.App .navlink {
+  color: rgba(0,0,0,.5) !important;
+  padding-right: 0.7rem;
+  padding-left: 0.7rem;
   cursor: pointer;
 }
-.App .section h1 {
-  margin-top: 3rem;
-  text-align: center;
-  color: rgba(0,0,0,.5);
+.App .navlink:hover, .App .navlink.selected {
+  color: rgba(231, 100, 9, 1) !important;
+  text-decoration: none;
 }
-.App .section p {
-  text-align: left;
+.App .logo {
+  display: inline-block;
+  height: 5rem;
+  width: auto;
+  vertical-align: top;
 }
 
-.about {
-  padding: 2rem;
+#content {
+  width: 100%;
 }
-.about p {
-  text-align: left;
+#home, #vision, #approach, #services, #about, #contact {
+  width: 70%;
+  height: auto;
+  align-self: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  padding: 3rem;
+  background-color: white;
+  text-align: center;
 }
-.profile-img {
+#home {
+  margin-top: 4rem;
+}
+#vision:before, #approach:before, #services:before, #about:before {
+  min-height: 6rem;
+  content: "";
+  display: block;
+}
+
+
+.picto {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+/* SERVICES */
+#services ul {
+  padding: none;
+}
+#services ul li {
+  list-style: none;
+}
+.bullet {
+  padding-right: 0.5rem;
+}
+
+/* ABOUT */
+#about img {
+  position: relative;
+  width: 12rem;
+  border-radius: 12rem;
+}
+#circle-black {
+  position: absolute;
+  left: 15rem;
   width: 10rem;
   height: 10rem;
   border-radius: 10rem;
-  background-color: rgba(255, 160, 122, 0.5);
+  border: 2px solid black;
+}
+#circle-red {
+  position: absolute;
+  left: 10rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 8rem;
+  background-color: rgba(231,100,96,1);
+}
+@media (max-width: 767px) {
+  #circle-black, #circle-red {
+    display: none;
+  }
 }
 
-.App > .footer {
-  min-height: 10rem;
-  padding: 1rem;
+/* CONTACT */
+#contact {
   text-align: left;
-  background-color: rgb(140, 180, 194, 0.5);
-  color: #f8f9fa;
-}
-
-.App .box {
-  width: 40px;
-  height: 40px;
-  margin: auto;
 }

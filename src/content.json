@@ -1,47 +1,31 @@
 {
-    "banner": {
-        "title": "Notre avenir dépend de notre capacité de coopération et d’engagement.",
-        "subtitle": "La nécessité de transformer nos façons de travailler et de manager n’est plus à prouver, mais par où commencer ?",
-        "text": "bise/bise vous accompagne, vous conseille et vous entraîne."
-    },
-    "home": [
+    "approach": [
         {
-            "id": "approach",
-            "title": "Notre approche",
-            "text": "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?"
+            "pretitle": "avec un esprit",
+            "title": "malin & ingénieux",
+            "text": [
+                "Nous avons développé un sens pratique hors-pair, un goût pour les combinaisons malines",
+                "Faire de la formation c’est bien, faire de la formation qui marche c’est mieux !",
+                "Nous cherchons constamment à faire des programmes simples et efficaces, en mixant modalités d’apprentissages, contenus et approches pédagogiques, toujours au service des objectifs opérationnels de votre organisation."
+            ]
         },
         {
-            "id": "services",
-            "title": "Nos services",
-            "text": "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?"
+            "title": "Dans la joie et l’optimisme",
+            "text": [
+                "Chez bise /bise, on déborde d’enthousiasme ! Nous diffusons cette énergie créative et inspirante dans chaque interaction, chaque intervention auprès de vos équipes. Insuffler la joie de vivre est au cœur de la réussite des parcours que nous concevons et animons. Nous combinons cette vivacité avec une grande écoute pour mieux nous adapter au rythme de vos besoins."
+            ]
         },
         {
-            "id": "works",
-            "title": "Réalisations",
-            "text": "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?"
+            "title": "En sortant des sentiers battus",
+            "text": [
+                "La curiosité est dans l’ADN de bise/bise. Nous cherchons pour chaque projet d’accompagnement un détour, une approche hors du commun. C’est aussi un état d’esprit que nous transmettons à vos équipes : Questionner ses pratiques, faire émerger et tester de nouvelles façons de faire, c’est pour nous le meilleur moyen de se former."
+            ]
         },
         {
-            "id": "about",
-            "title": "Qui sommes-nous ?",
-            "text": "Quam ob rem id primum videamus, si placet, quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos, ferre contra patriam arma illi cum Coriolano debuerunt? num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?"
+            "title": "Avec le goût de l’excellence",
+            "text": [
+                "Nous aimons le beau geste ! Nous pensons que, comme pour un sportif professionnel ou un virtuose du piano, chaque détail compte pour atteindre l’excellence opérationnelle. Nous nous appliquons à soigner les programmes que nous confectionnons et que nous animons, tant dans le fond que dans la forme, nous allons parfois chercher la petite bête, mais c’est pour mieux vous faire avancer !"
+            ]
         }
-    ],
-    "approach": {
-        "title": "",
-        "subtitle": "",
-        "images": []
-    },
-    "services": {
-        "title": "",
-        "subtitle": "",
-        "images": []
-    },
-    "about": {
-        "title": "Qui sommes-nous ?",
-        "subtitle": "",
-        "text": [
-            "Per hoc minui studium suum existimans Paulus, ut erat in conplicandis negotiis artifex dirus, unde ei Catenae inditum est cognomentum, vicarium ipsum eos quibus praeerat adhuc defensantem ad sortem periculorum communium traxit. et instabat ut eum quoque cum tribunis et aliis pluribus ad comitatum imperatoris vinctum perduceret: quo percitus ille exitio urgente abrupto ferro eundem adoritur Paulum. et quia languente dextera, letaliter ferire non potuit, iam districtum mucronem in proprium latus inpegit. hocque deformi genere mortis excessit e vita iustissimus rector ausus miserabiles casus levare multorum.", 
-            "Novitates autem si spem adferunt, ut tamquam in herbis non fallacibus fructus appareat, non sunt illae quidem repudiandae, vetustas tamen suo loco conservanda; maxima est enim vis vetustatis et consuetudinis. Quin in ipso equo, cuius modo feci mentionem, si nulla res impediat, nemo est, quin eo, quo consuevit, libentius utatur quam intractato et novo. Nec vero in hoc quod est animal, sed in iis etiam quae sunt inanima, consuetudo valet, cum locis ipsis delectemur, montuosis etiam et silvestribus, in quibus diutius commorati sumus."
-        ]
-    }
+    ]
 }

@@ -1,56 +1,62 @@
 import React from 'react';
-import Header from './components/Header';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
+import { BrowserRouter as Router, Route} from "react-router-dom";
+// Header :
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import logo from './img/logo.png';
+
+// Pages :
 import Home from './components/Home';
-import About from './components/About';
-import Approach from './components/Approach';
-import Works from './components/Works';
-import Services from './components/Services';
-import Footer from './components/Footer';
-import './style/App.css';
-import './index.css';
+import Content from './components/Content';
+import './App.css';
 
 export default class App extends React.Component {
   constructor() {
     super();
-    this.state = {currentPage: 'home'}
+    this.state = {currentPage: window.location.pathname}
   }
-  // Change current page component state onClick
-  handleClickedPage = (pageToGoTo) => {
-    this.setState(() => ({currentPage: pageToGoTo}));
+
+  handleNavPosition = () => {
+    this.setState({currentPage: window.location.pathname})
   }
-  // Get component according to state
-  componentToRender() {
-      switch (this.state.currentPage) {
-          case 'home': return <Home 
-              data={this.props.content.home}
-              dataBanner={this.props.content.banner}
-              handleClickedPage={this.handleClickedPage}
-            />
-          case 'about' : return <About
-              id={this.state.currentPage}
-              data={this.props.content.about}
-              handleClickedPage={this.handleClickedPage}
-            />
-          case 'works' : return <Works
-            data={this.props.content.works}
-            handleClickedPage={this.handleClickedPage}
-            />
-          case 'approach' : return <Approach
-            data={this.props.content.approach}
-            handleClickedPage={this.handleClickedPage}
-            />
-          case 'services' : return <Services
-              data={this.props.content.services}
-              handleClickedPage={this.handleClickedPage}
-            />
-      }
-  }
+
   render() {
     return (
       <div className="App">
-        <Header />
-        {this.componentToRender()}
-        <Footer />
+        <Router>
+          <Navbar expand="lg" className={this.state.currentPage === '/' ? 'fixed-bottom' : 'fixed-top'}>
+              <Navbar.Brand href="/">
+                  <img
+                      src={logo}
+                      className="logo"
+                      alt="bise-bise logo"
+                  />
+              </Navbar.Brand>
+              <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="ml-auto" onClick={this.handleNavPosition}>
+                    <NavLink className='navlink' exact to="/home#vision" smooth activeClassName="selected" location={{pathname: document.location.pathname + document.location.hash}}>Vision</NavLink>
+
+                    <NavLink className='navlink' exact to="/home#approach" smooth activeClassName="selected" location={{pathname: document.location.pathname + document.location.hash}}>Approche</NavLink>
+
+                    <NavLink className='navlink' exact to="/home#services" smooth activeClassName="selected" location={{pathname: document.location.pathname + document.location.hash}}>Services</NavLink>
+
+                    <NavLink className='navlink' exact to="/home#about" smooth activeClassName="selected" location={{pathname: document.location.pathname + document.location.hash}}>Qui ?</NavLink>
+                    
+                    <NavLink className='navlink' exact to="/home#contact" smooth activeClassName="selected" location={{pathname: document.location.pathname + document.location.hash}}>Contact</NavLink>
+                </Nav>
+              </Navbar.Collapse>
+          </Navbar>
+          <Route
+            exact path='/'
+            render={(props) => <Home {...props} />}
+          />
+          <Route
+            path='/home'
+            render={(props) => <Content {...props} />}
+          />
+        </Router>
       </div>
     );
   };
