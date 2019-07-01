@@ -11,6 +11,7 @@ export default class Contact extends React.Component {
     }
   
     handleSubmit = (e) => {
+        /*
         e.preventDefault();
         const data = JSON.stringify({ email: this.state.email, message: this.state.message });
         fetch('../mail.php', {
@@ -22,6 +23,7 @@ export default class Contact extends React.Component {
             console.log('success')
           }
         });
+        */
     }
 
     render() {
@@ -42,7 +44,7 @@ export default class Contact extends React.Component {
                                 <Form.Label>Votre message</Form.Label>
                                 <Form.Control as="textarea" rows="2" />
                             </Form.Group>
-                            <Button variant="light" type="submit" onClick={this.handleSubmit}>Envoyer</Button>
+                            <Button variant="light" type="submit" onClick={this.handleSubmit} disabled>Envoyer</Button>
                         </Form>
                     </Col>
                 </Row>

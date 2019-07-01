@@ -71,7 +71,11 @@ h3 {
   content: "";
   display: block;
 }
-
+@media (max-width: 767px) {
+  #home, #vision, #approach, #services, #about, #contact {
+    width: 90%;
+  }
+}
 
 .picto {
   width: 5rem;
